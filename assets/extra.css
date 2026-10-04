@@ -1,0 +1,9 @@
+
+.signs { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; margin: 14px 0; }
+.signs a { display: block; text-decoration: none; color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px; }
+.signs img { width: 100%; height: auto; display: block; border-radius: 6px; border: 1px solid var(--line); }
+.signs b { display: block; font-size: 14px; margin-top: 6px; }
+.signs span { font-size: 12px; color: var(--sub); }
+.preview { max-width: 230px; margin: 0 auto; }
+.preview img { width: 100%; border: 1px solid var(--line); border-radius: 8px; }
+a.dl { display: block; text-align: center; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 18px; padding: 14px; border-radius: 12px; text-decoration: none; margin: 14px 0; }
